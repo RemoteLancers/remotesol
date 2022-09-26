@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Front-End Web Designer</title>
+</head>
+<body>
+  <!-------------------- navbar---------------- -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+    <a href="index.html" class="navbar-brand">Front-End <span class="text-warning">Web Designer</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle ="collapse" data-bs-target ="#navmenu">
+    <span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#html" class="nav-link">HTML</a>
+        </li>
+        <li class="nav-item">
+          <a href="#css" class="nav-link">CSS</a>
+        </li>
+        <li class="nav-item">
+          <a href="#bootstrap" class="nav-link">Bootstrap</a>
+        </li>
+        <li class="nav-item">
+          <a href="#javascript" class="nav-link">JavaScript</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Front-End" class="nav-link">Front-End</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Back-End" class="nav-link">Back_End</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+   <!-------------------- Dashboard----------------->
+
+   <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 mt-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1> <span class="text-primary">Front-End</span> Services</h1>
+          <p class="lead my-5" >I am a Front-End Web Designer and providing the services which comes under the domain of Web Designer, You guyz can hire me for your short-Term projects as well as Long-Term projects. So let's work together</p>
+          <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#hire" type="submit">Hire Me</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="images/dashboard.png" alt="">
+      </div>
+    </div>
+   </section>
+
+<!-------------------- NewsLetter----------------->
+<section class="bg-primary text-light p-5">
+  <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h3>FOR HIRING ME</h3>
+      <div class="input-group new-input">
+        <input type="text" class="form-control" placeholder="Enter your Email">
+        <button class="btn btn-dark btn-lg" type="button">Button</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------Boxes------------ -->
+<section class="p-5">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-sm-6 col-md-6 col-lg-3" id="html">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-filetype-html"></i>
+            </div>
+            <h3 class="card-title mb-3">HTML5</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio hic minima obcaecati esse sunt odit sint quibusdam vitae enim eum.</p>
+            <a href="#Read" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3" id="css">
+        <div class="card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-filetype-css"></i>
+            </div>
+            <h3 class="card-title mb-3">CSS3</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio hic minima obcaecati esse sunt odit sint quibusdam vitae enim eum.</p>
+            <a href="#Read" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3" id="bootstrap">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-bootstrap"></i>
+            </div>
+            <h3 class="card-title mb-3">BOOTSTRAP</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio hic minima obcaecati esse sunt odit sint quibusdam vitae enim eum.</p>
+            <a href="#Read" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3" id="javascript">
+        <div class="card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-filetype-js"></i>
+            </div>
+            <h3 class="card-title mb-3">JavaScript</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio hic minima obcaecati esse sunt odit sint quibusdam vitae enim eum.</p>
+            <a href="#Read" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----------------projects------------ -->
+<section class="p-5" id="Front-End"> 
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <img class="img-fluid" src="images/Static-website.svg" alt="Image">
+      </div>
+      <div class="col-md p-5">
+        <h2>Projects Related to Web Designing by using (HTML5, CSS3, JavaScript, BOOTSTRAP)</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, rem! Consequuntur facere numquam deleniti qui.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem eos cumque, omnis doloribus optio tempora ea architecto mollitia maiores obcaecati quisquam voluptas laudantium saepe perspiciatis eligendi repellendus! Odit, porro.</p>
+        <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i>Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-5 bg-dark text-light" id="Back-End">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md p-5">
+        <h2>Back-End Developement PHP</h2>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, rem! Consequuntur facere numquam deleniti qui.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem eos cumque, omnis doloribus optio tempora ea architecto mollitia maiores obcaecati quisquam voluptas laudantium saepe perspiciatis eligendi repellendus! Odit, porro.</p>
+        <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i>Read More</a>
+      </div>
+      <div class="col-md">
+      <img class="img-fluid" src="images/Freelance-PHP-Developer.svg" alt="Image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------frequently Ask Questions------------ -->
+
+<section id="questions" class="p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Fequently Asked Questions</h2>
+    <div class="accordion accordion-flush" id="questions">
+      <!-- item-one  -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+            What Is HTML5 & CSS3?
+          </button>
+        </h2>
+        <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, laboriosam temporibus tempora quas exercitationem similique sint praesentium velit inventore sapiente perspiciatis alias fugit ducimus in doloribus ipsum porro, odit excepturi ullam! Quos magni rem dolore aut itaque inventore tempora, molestiae unde vitae exercitationem, voluptas accusamus obcaecati dolorum deserunt quam molestias?</div>
+        </div>
+      </div>
+    
+       <!-- item-two  -->
+       <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+            What Is JavaScript?
+          </button>
+        </h2>
+        <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+          <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero impedit dolor magni odit soluta explicabo voluptates, numquam labore exercitationem perferendis ad repellendus, molestiae totam qui vel quo? Iusto quos dolor consectetur, doloremque eos officiis nam minus, nesciunt atque maiores deleniti suscipit obcaecati? Cumque accusantium culpa accusamus, quam cupiditate eaque necessitatibus laborum tenetur autem ducimus eveniet!</div>
+        </div>
+      </div>
+    
+       <!-- item-three  -->
+       <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+            How we can use Bootstrap?
+          </button>
+        </h2>
+        <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+          <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nesciunt quasi eos enim similique esse velit repellat ratione qui adipisci, cum quo libero molestiae neque aspernatur. Dolorem dolore id placeat vero enim ipsam, non cumque eum saepe! Perferendis obcaecati animi rerum doloremque corrupti expedita ratione assumenda molestiae eveniet? Quod minus numquam quisquam rem perspiciatis velit magnam blanditiis, esse id non a possimus cum soluta explicabo quae dicta. Odio quasi non harum, culpa dolor sapiente magnam!</div>
+        </div>
+      </div>
+
+       <!-- item-four  -->
+       <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+            How we can learn Front-End Designing?
+          </button>
+        </h2>
+        <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+          <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nesciunt quasi eos enim similique esse velit repellat ratione qui adipisci, cum quo libero molestiae neque aspernatur. Dolorem dolore id placeat vero enim ipsam, non cumque eum saepe! Perferendis obcaecati animi rerum doloremque corrupti expedita ratione assumenda molestiae eveniet? Quod minus numquam quisquam rem perspiciatis velit magnam blanditiis, esse id non a possimus cum soluta explicabo quae dicta. Odio quasi non harum, culpa dolor sapiente magnam!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------------cards of team member-------------- -->
+<section class="p-5 bg-primary">
+  <div class="container">
+    <h2 class="text-center text-white">Our Developement Team</h2>
+    <p class="text-center text-light lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fuga quasi quaerat laborum aspernatur dolorem id quas eos molestiae deserunt!</p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img class="rounded-circle img-fluid mb-3 w-50" src="images/user.png" alt="image">
+            <h3 class="card-title mb-3">Mr Jack</h3>
+            <p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio omnis maiores ipsam laboriosam doloribus molestiae! Error quam odit consequatur!</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img class="rounded-circle img-fluid mb-3 w-50" src="images/user.png" alt="image">
+            <h3 class="card-title mb-3">Michael Doe</h3>
+            <p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio omnis maiores ipsam laboriosam doloribus molestiae! Error quam odit consequatur!</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img class="rounded-circle img-fluid mb-3 w-50" src="images/user.png" alt="image">
+            <h3 class="card-title mb-3">Charles Babage</h3>
+            <p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio omnis maiores ipsam laboriosam doloribus molestiae! Error quam odit consequatur!</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <img class="rounded-circle img-fluid mb-3 w-50" src="images/user.png" alt="image">
+            <h3 class="card-title mb-3">Mr Roy</h3>
+            <p class="card-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio omnis maiores ipsam laboriosam doloribus molestiae! Error quam odit consequatur!</p>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ------------footer----------- -->
+<footer class="p-5 bg-dark text-white text-center position-relative ">
+  <div class="container">
+  <p>Copyright &copy; Mohtasham Tasleem Front-End Web Designer</p>
+  <a href="#" class="position-absolute bottom-0 end-0 p-5 "><h1><i class="bi bi-arrow-up-circle"></i></h1></a>
+</div>
+</footer>
+<!-- -------------------modal button---------------- -->
+
+<!-- Modal -->
+<div class="modal fade" id="hire" tabindex="-1" aria-labelledby="hireLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="hireLabel">Hire Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Please Fill out this form</p>
+        <form>
+          <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" id="first-name" class="form-control" placeholder="Enter your First Name">
+          </div>
+          <div class="mb-3">
+            <label for="last-name" class="col-form-label">
+              First Name:
+            </label>
+            <input type="text" id="last-name" class="form-control" placeholder="Enter your Last Name">
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="col-form-label">
+              First Name:
+            </label>
+            <input type="email" id="Email" class="form-control" placeholder="Enter your Email Address">
+          </div>
+          <div class="mb-3">
+            <label for="phone-num" class="col-form-label">
+              First Name:
+            </label>
+            <input type="number" id="first-name" class="form-control" placeholder="Enter your Phone Number">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

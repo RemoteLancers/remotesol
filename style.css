@@ -1,0 +1,7 @@
+.services-bg{
+    background-color:#e8e8e8;
+}
+
+.contact-img{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/contact-img.jpg");
+}
